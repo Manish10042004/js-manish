@@ -43,3 +43,15 @@ if(balance<500){
 
 
 
+const userLoggedIn=true
+const debitCard=true
+const loggedInfromGoogle=false
+const loggedInFromEmail=true
+
+if(userLoggedIn && debitCard && 2==3){
+  console.log("Allow to buy course");
+}
+
+if(loggedInFromEmail || loggedInFromEmail){
+  console.log("User logges in");
+}
